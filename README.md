@@ -722,4 +722,4 @@ Issues and pull requests are welcome. Before opening a pull request:
 
 ## 23. License
 
-Released under the MIT License. See [`LICENSE`](LICENSE). The copyright line currently reads `Copyright (c) 2026 [YOUR NAME]`; replace `[YOUR NAME]` with your own name before publishing the repository.
+Released under the MIT License. See [`LICENSE`](LICENSE).
