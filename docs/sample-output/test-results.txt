@@ -1,0 +1,29 @@
+
+Intermediate Value Theorem project tests
+========================================
+  PASS  f(0) = -1 and f(1) = 1 (the course example)
+  PASS  ivt_check guarantees a root on [0, 1]
+  PASS  root of the example is 0.7191393277
+  PASS  every k in [-1, 1] is attained
+  PASS  k outside [f(a), f(b)] is not guaranteed
+  PASS  k exactly at f(b) counts as between
+  PASS  tan(x) on [1, 2] is flagged (pole)
+  PASS  1/x on [-1, 1] is flagged
+  PASS  sign(x) on [-1, 1] is flagged
+  PASS  smooth functions are not flagged
+  PASS  x^2 - 0.25 on [-1, 1]: no guarantee
+  PASS  scan finds 3 brackets in [-2, 1]
+  PASS  scan = Octave roots() on [-2, 1]
+  PASS  scan finds pi, 2pi, 3pi for sin(x)
+  PASS  grid point at a root -> degenerate bracket
+  PASS  no sign change -> no brackets
+  PASS  error id: k not bracketed
+  PASS  error id: bad interval (ivt_check)
+  PASS  cos(x) = x via the IVT
+  PASS  built-in tests of ivt_check.m (3/3)
+  PASS  built-in tests of ivt_find_c.m (3/3)
+  PASS  built-in tests of find_sign_change_brackets.m (3/3)
+  PASS  built-in tests of find_roots_by_scanning.m (2/2)
+
+23 passed, 0 failed
+
